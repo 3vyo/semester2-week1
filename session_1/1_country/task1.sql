@@ -13,3 +13,4 @@
 -- write your sql code here
 
 SELECT * from countries;
+SELECT Country FROM countries WHERE population>20000000 ORDER BY population DESC LIMIT 10;
